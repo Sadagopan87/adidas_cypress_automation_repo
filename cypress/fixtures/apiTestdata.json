@@ -1,0 +1,14 @@
+{
+    "url_api": "https://petstore.swagger.io",
+    "id_post": "667775074",
+    "petname_post": "TestautoPet_add2",
+    "status_post": "available",
+    "pet_status_update_post":"sold",
+    "petname_update_post":"TestautoPet_update2",
+    "api_key": "special-key"
+    
+
+    
+
+
+}
