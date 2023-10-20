@@ -15,7 +15,7 @@ let postURLcontry = apiTestdata.url_api
 
 
 
-describe('Sadagopan First Question Cypress API Test For Adidas Assesment-GET API Call ', () => {
+describe('Sadagopan First Question Cypress API Test-GET API Call ', () => {
     it('Visits the GET API URL for fetching available Pets and then verify the 200 response code', () => {
         //The request missed important two input param in body one is brand and other one is locale.
         cy.request({
@@ -64,7 +64,7 @@ describe('Sadagopan First Question Cypress API Test For Adidas Assesment-GET API
 
 })
 
-describe('Sadagopan First Question Cypress API Test For Adidas Assesment-POST API call ', () => {
+describe('Sadagopan First Question Cypress API Test -POST API call ', () => {
     it('Post a new available pet to the store - Verify 200 status code ', () => {
         //The request missed important two input param in body one is brand and other one is locale.
         cy.request({
@@ -120,7 +120,7 @@ describe('Sadagopan First Question Cypress API Test For Adidas Assesment-POST AP
 })
 
 
-describe('Sadagopan First Question Cypress API Test For Adidas Assesment-POST API call For update ', () => {
+describe('Sadagopan First Question Cypress API Test -POST API call For update ', () => {
     it('update a new available pet in the store - Verify 200 status code ', () => {
         //The request missed important two input param in body one is brand and other one is locale.
         cy.request({
@@ -190,7 +190,7 @@ describe('Sadagopan First Question Cypress API Test For Adidas Assesment-POST AP
 })
 
 
-describe('Sadagopan First Question Cypress API Test For Adidas Assesment-Delete  API call ', () => {
+describe('Sadagopan First Question Cypress API Test-Delete  API call ', () => {
     it('Delete this pet. Assert deletion', () => {
         //The request missed important two input param in body one is brand and other one is locale.
         cy.request({
@@ -236,7 +236,7 @@ describe('Sadagopan First Question Cypress API Test For Adidas Assesment-Delete 
 
 })
 
-describe('Sadagopan Second Question Cypress Front END UI validation Test For Adidas Assesment ', () => {
+describe('Sadagopan Second Question Cypress Front END UI validation Test', () => {
     it('Launch the URL and Customer navigation through product categories: Phones, Laptops and Monitors ', () => {
         cy.visit(frontendData.url_frontend)
     })
