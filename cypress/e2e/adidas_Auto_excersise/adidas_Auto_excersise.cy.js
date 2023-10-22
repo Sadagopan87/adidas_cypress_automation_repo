@@ -17,7 +17,7 @@ let postURLcontry = apiTestdata.url_api
 
 describe('Sadagopan First Question Cypress API Test-GET API Call ', () => {
     it('Visits the GET API URL for fetching available Pets and then verify the 200 response code', () => {
-        //The request missed important two input param in body one is brand and other one is locale.
+        
         cy.request({
             method: 'GET',
             url: postURLcontry + '/v2/pet/findByStatus?status=available',
@@ -66,7 +66,6 @@ describe('Sadagopan First Question Cypress API Test-GET API Call ', () => {
 
 describe('Sadagopan First Question Cypress API Test -POST API call ', () => {
     it('Post a new available pet to the store - Verify 200 status code ', () => {
-        //The request missed important two input param in body one is brand and other one is locale.
         cy.request({
             method: 'POST',
             url: postURLcontry + '/v2/pet',
@@ -122,7 +121,7 @@ describe('Sadagopan First Question Cypress API Test -POST API call ', () => {
 
 describe('Sadagopan First Question Cypress API Test -POST API call For update ', () => {
     it('update a new available pet in the store - Verify 200 status code ', () => {
-        //The request missed important two input param in body one is brand and other one is locale.
+       
         cy.request({
             method: 'PUT',
             url: postURLcontry + '/v2/pet/',
