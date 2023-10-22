@@ -191,7 +191,7 @@ describe('Sadagopan First Question Cypress API Test -POST API call For update ',
 
 describe('Sadagopan First Question Cypress API Test-Delete  API call ', () => {
     it('Delete this pet. Assert deletion', () => {
-        //The request missed important two input param in body one is brand and other one is locale.
+       
         cy.request({
             method: 'DELETE',
             url: postURLcontry + '/v2/pet/' + apiTestdata.id_post,
