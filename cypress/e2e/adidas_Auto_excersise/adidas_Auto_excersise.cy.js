@@ -207,7 +207,7 @@ describe('Sadagopan First Question Cypress API Test-Delete  API call ', () => {
 
     })
 
-    it('Assert  whether the pet Deleted or not in the API databace.  ', () => {
+    it('Assert  whether the pet Deleted or not in the API database.  ', () => {
         //verify the availble pets status from the response
 
         cy.request({
