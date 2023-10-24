@@ -159,7 +159,7 @@ describe('Sadagopan First Question Cypress API Test -POST API call For update ',
 
     })
 
-    it('Assert  whether the pet updated or not in the API databace.  ', () => {
+    it('Assert  whether the pet updated or not in the API database.  ', () => {
         //verify the availble pets status from the response
 
         cy.request({
